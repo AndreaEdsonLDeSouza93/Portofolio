@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Progetti</a></li>
-      <li><a href="#posts">Post del Giorno</a></li>
-    </ul>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Progetti</a></li>
+        <li><a href="#posts">Post del Giorno</a></li>
+      </ul>
+    </nav>
 
-  <!-- Home Section -->
-  <section id="home" class="section">
-    <div class="intro">
-      <h1>Benvenuto nel mio Portfolio!</h1>
-      <p>Ciao, sono [Il tuo nome], sviluppatore e appassionato di tecnologia.</p>
-      <img src="profile.jpg" alt="Foto di profilo" class="profile-img">
-    </div>
-  </section>
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <div class="intro">
+        <h1>Benvenuto nel mio Portfolio!</h1>
+        <p>
+          Ciao, sono [Il tuo nome], sviluppatore e appassionato di tecnologia.
+        </p>
+        <img src="profile.jpg" alt="Foto di profilo" class="profile-img" />
+      </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <h2>Chi Sono</h2>
-    <p>Mi piace imparare, creare e sviluppare soluzioni per migliorare il mondo digitale. Ecco alcune delle cose che faccio:</p>
-    <ul>
-      <li>Sviluppo web</li>
-      <li>Progetti open-source</li>
-      <li>Automazione e ottimizzazione</li>
-    </ul>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>Chi Sono</h2>
+      <p>
+        Mi piace imparare, creare e sviluppare soluzioni per migliorare il mondo
+        digitale. Ecco alcune delle cose che faccio:
+      </p>
+      <ul>
+        <li>Sviluppo web</li>
+        <li>Progetti open-source</li>
+        <li>Automazione e ottimizzazione</li>
+      </ul>
+    </section>
 
-  <!-- Progetti Section -->
-  <section id="projects" class="section">
-    <h2>I miei Progetti</h2>
-    <div class="project-links">
-      <a href="https://github.com/tuo-github" target="_blank">Progetto 1</a>
-      <a href="https://github.com/tuo-github" target="_blank">Progetto 2</a>
-      <a href="https://github.com/tuo-github" target="_blank">Progetto 3</a>
-    </div>
-  </section>
+    <!-- Progetti Section -->
+    <section id="projects" class="section">
+      <h2>I miei Progetti</h2>
+      <div class="project-links">
+        <a href="https://github.com/tuo-github" target="_blank">Progetto 1</a>
+        <a href="https://github.com/tuo-github" target="_blank">Progetto 2</a>
+        <a href="https://github.com/tuo-github" target="_blank">Progetto 3</a>
+      </div>
+    </section>
 
-  <!-- Post Section -->
-  <section id="posts" class="section">
-    <h2>Post del Giorno</h2>
-    <textarea id="postContent" placeholder="Scrivi il tuo post qui..."></textarea>
-    <button onclick="addPost()">Aggiungi Post</button>
+    <!-- Post Section -->
+    <section id="posts" class="section">
+      <h2>Post del Giorno</h2>
+      <textarea
+        id="postContent"
+        placeholder="Scrivi il tuo post qui..."
+      ></textarea>
+      <button onclick="addPost()">Aggiungi Post</button>
 
-    <div id="postList" class="post-list">
-      <!-- I post verranno visualizzati qui -->
-    </div>
-  </section>
+      <div id="postList" class="post-list">
+        <!-- I post verranno visualizzati qui -->
+      </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 [Il tuo nome]. Tutti i diritti riservati.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 [Il tuo nome]. Tutti i diritti riservati.</p>
+    </footer>
 
-  <script src="/js/script.js"></script>
-</body>
+    <script src="/js/script.js"></script>
+  </body>
 </html>
